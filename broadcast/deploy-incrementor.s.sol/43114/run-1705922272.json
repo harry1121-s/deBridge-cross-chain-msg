@@ -1,0 +1,58 @@
+{
+  "transactions": [
+    {
+      "hash": "0x66237e20e305096253c6547cffbe9d516d4558467fa4b4fe2dd0b82e8275fd80",
+      "transactionType": "CALL",
+      "contractName": "TransparentUpgradeableProxy",
+      "contractAddress": "0x43dE2d77BF8027e25dBD179B491e8d64f38398aA",
+      "function": "globalFixedNativeFee()",
+      "arguments": [],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x749f88e87eaeb030e478164cfd3681e27d0bcb42",
+        "to": "0x43de2d77bf8027e25dbd179b491e8d64f38398aa",
+        "gas": "0xafb2",
+        "value": "0x0",
+        "data": "0x35087f0a",
+        "nonce": "0x6",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0xb5c92c5a91e52da93a50bab13edc4f2a7e3870cc6e5be0ee58e712de6c858805",
+      "transactionType": "CALL",
+      "contractName": "CrossChainIncrementor",
+      "contractAddress": "0xcAed8046d2e2b9E395f9b6f2d0206C77E380eBD4",
+      "function": "incrementWithIncludedGas(uint8,uint256)",
+      "arguments": [
+        "3",
+        "400000000000000000"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x749f88e87eaeb030e478164cfd3681e27d0bcb42",
+        "to": "0xcaed8046d2e2b9e395f9b6f2d0206c77e380ebd4",
+        "gas": "0x2fb86",
+        "value": "0x63eb89da4ed0000",
+        "data": "0xa78730a50000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000058d15e176280000",
+        "nonce": "0x7",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x66237e20e305096253c6547cffbe9d516d4558467fa4b4fe2dd0b82e8275fd80",
+    "0xb5c92c5a91e52da93a50bab13edc4f2a7e3870cc6e5be0ee58e712de6c858805"
+  ],
+  "returns": {},
+  "timestamp": 1705922272,
+  "chain": 43114,
+  "multi": false,
+  "commit": null
+}

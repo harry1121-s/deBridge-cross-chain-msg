@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "hash": "0x0d7c7d90303e1d9c685b12486e0b8083c2c4ea433f35a0552838bc372140c974",
+      "transactionType": "CALL",
+      "contractName": "CrossChainIncrementor",
+      "contractAddress": "0xcAed8046d2e2b9E395f9b6f2d0206C77E380eBD4",
+      "function": "increment(uint8)",
+      "arguments": [
+        "3"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x749f88e87eaeb030e478164cfd3681e27d0bcb42",
+        "to": "0xcaed8046d2e2b9e395f9b6f2d0206c77e380ebd4",
+        "gas": "0x2d004",
+        "value": "0x16345785d8a0000",
+        "data": "0xd6b463300000000000000000000000000000000000000000000000000000000000000003",
+        "nonce": "0x5",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x0d7c7d90303e1d9c685b12486e0b8083c2c4ea433f35a0552838bc372140c974"
+  ],
+  "returns": {},
+  "timestamp": 1705912217,
+  "chain": 43114,
+  "multi": false,
+  "commit": null
+}
